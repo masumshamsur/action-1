@@ -1,4 +1,4 @@
-name: generate ascii with dragon
+name: generate ascii dragon with script
 
 on: push
 
@@ -14,7 +14,7 @@ jobs:
 
         - name: Exicute shell script
           run:  |
-                chmod +x ascii-script.sh     # giving permission
+                chmod +x ascii-script.sh
                 ./ascii-script.sh
 
                 
